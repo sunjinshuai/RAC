@@ -32,6 +32,7 @@
     [self.dataSource addObject:@"*RAC常见的宏*-RACMacroViewController"];
     [self.dataSource addObject:@"*RAC值传递*-RACValuePassedViewController"];
     [self.dataSource addObject:@"*RACSignal*-RACSignalViewController"];
+    [self.dataSource addObject:@"*RACSequence*-RACSequenceViewController"];
     
     [self.tableView reloadData];
 }
