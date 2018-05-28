@@ -26,6 +26,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.dataSource addObject:@"*RAC-过滤*-RACFliterViewController"];
+    [self.dataSource addObject:@"*RAC-映射*-RACMappingViewController"];
     
     [self.tableView reloadData];
 }

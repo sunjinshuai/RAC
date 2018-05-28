@@ -17,6 +17,8 @@
 		81FF835D20BBAE5900F356B0 /* RACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF835C20BBAE5900F356B0 /* RACDemoUITests.m */; };
 		81FF836D20BBB06300F356B0 /* RACFliterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF836C20BBB06300F356B0 /* RACFliterViewController.m */; };
 		81FF837020BBB32C00F356B0 /* RACFliterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF836F20BBB32C00F356B0 /* RACFliterViewController.xib */; };
+		81FF837520BBE8B400F356B0 /* RACMappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF837320BBE8B400F356B0 /* RACMappingViewController.m */; };
+		81FF837620BBE8B400F356B0 /* RACMappingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */; };
 		DDE51B268B673DFDE1A32565 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,9 @@
 		81FF836C20BBB06300F356B0 /* RACFliterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACFliterViewController.m; sourceTree = "<group>"; };
 		81FF836E20BBB2BF00F356B0 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		81FF836F20BBB32C00F356B0 /* RACFliterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACFliterViewController.xib; sourceTree = "<group>"; };
+		81FF837220BBE8B400F356B0 /* RACMappingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMappingViewController.h; sourceTree = "<group>"; };
+		81FF837320BBE8B400F356B0 /* RACMappingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMappingViewController.m; sourceTree = "<group>"; };
+		81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACMappingViewController.xib; sourceTree = "<group>"; };
 		A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +128,7 @@
 		81FF833720BBAE5800F356B0 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81FF837120BBE87A00F356B0 /* RAC-映射 */,
 				81FF836A20BBAEB800F356B0 /* RAC-过滤 */,
 				81FF833820BBAE5800F356B0 /* AppDelegate.h */,
 				81FF833920BBAE5800F356B0 /* AppDelegate.m */,
@@ -164,6 +170,16 @@
 				81FF836F20BBB32C00F356B0 /* RACFliterViewController.xib */,
 			);
 			path = "RAC-过滤";
+			sourceTree = "<group>";
+		};
+		81FF837120BBE87A00F356B0 /* RAC-映射 */ = {
+			isa = PBXGroup;
+			children = (
+				81FF837220BBE8B400F356B0 /* RACMappingViewController.h */,
+				81FF837320BBE8B400F356B0 /* RACMappingViewController.m */,
+				81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */,
+			);
+			path = "RAC-映射";
 			sourceTree = "<group>";
 		};
 		B2E259C8B8D1A9BB77AF9AFE /* Frameworks */ = {
@@ -282,6 +298,7 @@
 				81FF834220BBAE5900F356B0 /* Assets.xcassets in Resources */,
 				81FF834020BBAE5800F356B0 /* Main.storyboard in Resources */,
 				81FF837020BBB32C00F356B0 /* RACFliterViewController.xib in Resources */,
+				81FF837620BBE8B400F356B0 /* RACMappingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FF833D20BBAE5800F356B0 /* ViewController.m in Sources */,
+				81FF837520BBE8B400F356B0 /* RACMappingViewController.m in Sources */,
 				81FF834820BBAE5900F356B0 /* main.m in Sources */,
 				81FF833A20BBAE5800F356B0 /* AppDelegate.m in Sources */,
 				81FF836D20BBB06300F356B0 /* RACFliterViewController.m in Sources */,
