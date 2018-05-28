@@ -21,6 +21,8 @@
 		81FF837B20BBF14C00F356B0 /* RACCombinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF837920BBF14C00F356B0 /* RACCombinationViewController.m */; };
 		81FF837C20BBF14C00F356B0 /* RACCombinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF837A20BBF14C00F356B0 /* RACCombinationViewController.xib */; };
 		81FF838020BBF56F00F356B0 /* RACBindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF837F20BBF56F00F356B0 /* RACBindViewController.m */; };
+		81FF838420BBF88500F356B0 /* RACMacroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF838320BBF88500F356B0 /* RACMacroViewController.m */; };
+		81FF838620BBF8A000F356B0 /* RACMacroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF838520BBF8A000F356B0 /* RACMacroViewController.xib */; };
 		DDE51B268B673DFDE1A32565 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,9 @@
 		81FF837A20BBF14C00F356B0 /* RACCombinationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACCombinationViewController.xib; sourceTree = "<group>"; };
 		81FF837E20BBF56F00F356B0 /* RACBindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACBindViewController.h; sourceTree = "<group>"; };
 		81FF837F20BBF56F00F356B0 /* RACBindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACBindViewController.m; sourceTree = "<group>"; };
+		81FF838220BBF88500F356B0 /* RACMacroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMacroViewController.h; sourceTree = "<group>"; };
+		81FF838320BBF88500F356B0 /* RACMacroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMacroViewController.m; sourceTree = "<group>"; };
+		81FF838520BBF8A000F356B0 /* RACMacroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACMacroViewController.xib; sourceTree = "<group>"; };
 		A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +139,7 @@
 		81FF833720BBAE5800F356B0 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81FF838120BBF87300F356B0 /* RAC-Macro */,
 				81FF837D20BBF53C00F356B0 /* RAC-绑定 */,
 				81FF837720BBF11A00F356B0 /* RAC-组合 */,
 				81FF837120BBE87A00F356B0 /* RAC-映射 */,
@@ -206,6 +212,16 @@
 				81FF837F20BBF56F00F356B0 /* RACBindViewController.m */,
 			);
 			path = "RAC-绑定";
+			sourceTree = "<group>";
+		};
+		81FF838120BBF87300F356B0 /* RAC-Macro */ = {
+			isa = PBXGroup;
+			children = (
+				81FF838220BBF88500F356B0 /* RACMacroViewController.h */,
+				81FF838320BBF88500F356B0 /* RACMacroViewController.m */,
+				81FF838520BBF8A000F356B0 /* RACMacroViewController.xib */,
+			);
+			path = "RAC-Macro";
 			sourceTree = "<group>";
 		};
 		B2E259C8B8D1A9BB77AF9AFE /* Frameworks */ = {
@@ -320,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FF838620BBF8A000F356B0 /* RACMacroViewController.xib in Resources */,
 				81FF834520BBAE5900F356B0 /* LaunchScreen.storyboard in Resources */,
 				81FF834220BBAE5900F356B0 /* Assets.xcassets in Resources */,
 				81FF837C20BBF14C00F356B0 /* RACCombinationViewController.xib in Resources */,
@@ -372,6 +389,7 @@
 			files = (
 				81FF833D20BBAE5800F356B0 /* ViewController.m in Sources */,
 				81FF837520BBE8B400F356B0 /* RACMappingViewController.m in Sources */,
+				81FF838420BBF88500F356B0 /* RACMacroViewController.m in Sources */,
 				81FF834820BBAE5900F356B0 /* main.m in Sources */,
 				81FF837B20BBF14C00F356B0 /* RACCombinationViewController.m in Sources */,
 				81FF833A20BBAE5800F356B0 /* AppDelegate.m in Sources */,

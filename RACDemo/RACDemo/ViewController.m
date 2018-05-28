@@ -25,10 +25,11 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.dataSource addObject:@"*RAC-过滤*-RACFliterViewController"];
-    [self.dataSource addObject:@"*RAC-映射*-RACMappingViewController"];
-    [self.dataSource addObject:@"*RAC-组合*-RACCombinationViewController"];
-    [self.dataSource addObject:@"*RAC-绑定*-RACBindViewController"];
+    [self.dataSource addObject:@"*RAC过滤*-RACFliterViewController"];
+    [self.dataSource addObject:@"*RAC映射*-RACMappingViewController"];
+    [self.dataSource addObject:@"*RAC组合*-RACCombinationViewController"];
+    [self.dataSource addObject:@"*RAC绑定*-RACBindViewController"];
+    [self.dataSource addObject:@"*RAC常见的宏*-RACMacroViewController"];
     
     [self.tableView reloadData];
 }
