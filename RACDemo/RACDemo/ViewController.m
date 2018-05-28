@@ -30,6 +30,7 @@
     [self.dataSource addObject:@"*RAC组合*-RACCombinationViewController"];
     [self.dataSource addObject:@"*RAC绑定*-RACBindViewController"];
     [self.dataSource addObject:@"*RAC常见的宏*-RACMacroViewController"];
+    [self.dataSource addObject:@"*RAC-值传递*-RACValuePassedViewController"];
     
     [self.tableView reloadData];
 }
