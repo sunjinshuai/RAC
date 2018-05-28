@@ -28,6 +28,7 @@
     [self.dataSource addObject:@"*RAC-过滤*-RACFliterViewController"];
     [self.dataSource addObject:@"*RAC-映射*-RACMappingViewController"];
     [self.dataSource addObject:@"*RAC-组合*-RACCombinationViewController"];
+    [self.dataSource addObject:@"*RAC-绑定*-RACBindViewController"];
     
     [self.tableView reloadData];
 }
