@@ -18,7 +18,8 @@
 		81FF836D20BBB06300F356B0 /* RACFliterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF836C20BBB06300F356B0 /* RACFliterViewController.m */; };
 		81FF837020BBB32C00F356B0 /* RACFliterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF836F20BBB32C00F356B0 /* RACFliterViewController.xib */; };
 		81FF837520BBE8B400F356B0 /* RACMappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF837320BBE8B400F356B0 /* RACMappingViewController.m */; };
-		81FF837620BBE8B400F356B0 /* RACMappingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */; };
+		81FF837B20BBF14C00F356B0 /* RACCombinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF837920BBF14C00F356B0 /* RACCombinationViewController.m */; };
+		81FF837C20BBF14C00F356B0 /* RACCombinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF837A20BBF14C00F356B0 /* RACCombinationViewController.xib */; };
 		DDE51B268B673DFDE1A32565 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +65,9 @@
 		81FF836F20BBB32C00F356B0 /* RACFliterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACFliterViewController.xib; sourceTree = "<group>"; };
 		81FF837220BBE8B400F356B0 /* RACMappingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMappingViewController.h; sourceTree = "<group>"; };
 		81FF837320BBE8B400F356B0 /* RACMappingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMappingViewController.m; sourceTree = "<group>"; };
-		81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACMappingViewController.xib; sourceTree = "<group>"; };
+		81FF837820BBF14C00F356B0 /* RACCombinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCombinationViewController.h; sourceTree = "<group>"; };
+		81FF837920BBF14C00F356B0 /* RACCombinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCombinationViewController.m; sourceTree = "<group>"; };
+		81FF837A20BBF14C00F356B0 /* RACCombinationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACCombinationViewController.xib; sourceTree = "<group>"; };
 		A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +131,7 @@
 		81FF833720BBAE5800F356B0 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81FF837720BBF11A00F356B0 /* RAC-组合 */,
 				81FF837120BBE87A00F356B0 /* RAC-映射 */,
 				81FF836A20BBAEB800F356B0 /* RAC-过滤 */,
 				81FF833820BBAE5800F356B0 /* AppDelegate.h */,
@@ -177,9 +181,18 @@
 			children = (
 				81FF837220BBE8B400F356B0 /* RACMappingViewController.h */,
 				81FF837320BBE8B400F356B0 /* RACMappingViewController.m */,
-				81FF837420BBE8B400F356B0 /* RACMappingViewController.xib */,
 			);
 			path = "RAC-映射";
+			sourceTree = "<group>";
+		};
+		81FF837720BBF11A00F356B0 /* RAC-组合 */ = {
+			isa = PBXGroup;
+			children = (
+				81FF837820BBF14C00F356B0 /* RACCombinationViewController.h */,
+				81FF837920BBF14C00F356B0 /* RACCombinationViewController.m */,
+				81FF837A20BBF14C00F356B0 /* RACCombinationViewController.xib */,
+			);
+			path = "RAC-组合";
 			sourceTree = "<group>";
 		};
 		B2E259C8B8D1A9BB77AF9AFE /* Frameworks */ = {
@@ -296,9 +309,9 @@
 			files = (
 				81FF834520BBAE5900F356B0 /* LaunchScreen.storyboard in Resources */,
 				81FF834220BBAE5900F356B0 /* Assets.xcassets in Resources */,
+				81FF837C20BBF14C00F356B0 /* RACCombinationViewController.xib in Resources */,
 				81FF834020BBAE5800F356B0 /* Main.storyboard in Resources */,
 				81FF837020BBB32C00F356B0 /* RACFliterViewController.xib in Resources */,
-				81FF837620BBE8B400F356B0 /* RACMappingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +360,7 @@
 				81FF833D20BBAE5800F356B0 /* ViewController.m in Sources */,
 				81FF837520BBE8B400F356B0 /* RACMappingViewController.m in Sources */,
 				81FF834820BBAE5900F356B0 /* main.m in Sources */,
+				81FF837B20BBF14C00F356B0 /* RACCombinationViewController.m in Sources */,
 				81FF833A20BBAE5800F356B0 /* AppDelegate.m in Sources */,
 				81FF836D20BBB06300F356B0 /* RACFliterViewController.m in Sources */,
 			);
