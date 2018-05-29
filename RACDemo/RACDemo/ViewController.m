@@ -35,6 +35,7 @@
     [self.dataSource addObject:@"*RACSequence*-RACSequenceViewController"];
     [self.dataSource addObject:@"*MulticastConnection*-RACMulticastConnectionViewController"];
     [self.dataSource addObject:@"*Command*-RACCommandViewController"];
+    [self.dataSource addObject:@"*MVVM实战*-RACMVVMViewController"];
     
     [self.tableView reloadData];
 }
