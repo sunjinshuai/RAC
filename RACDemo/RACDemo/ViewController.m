@@ -33,8 +33,8 @@
     [self.dataSource addObject:@"*RAC值传递*-RACValuePassedViewController"];
     [self.dataSource addObject:@"*RACSignal*-RACSignalViewController"];
     [self.dataSource addObject:@"*RACSequence*-RACSequenceViewController"];
-    
     [self.dataSource addObject:@"*MulticastConnection*-RACMulticastConnectionViewController"];
+    [self.dataSource addObject:@"*Command*-RACCommandViewController"];
     
     [self.tableView reloadData];
 }

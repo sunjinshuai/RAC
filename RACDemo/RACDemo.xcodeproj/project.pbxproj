@@ -29,6 +29,7 @@
 		81FF839C20BC047C00F356B0 /* RACSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF839B20BC047C00F356B0 /* RACSequenceViewController.m */; };
 		81FF839E20BC04C400F356B0 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81FF839D20BC04C400F356B0 /* flags.plist */; };
 		81FF83A220BC05A500F356B0 /* RACMulticastConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF83A120BC05A500F356B0 /* RACMulticastConnectionViewController.m */; };
+		81FF83A620BD548D00F356B0 /* RACCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF83A520BD548D00F356B0 /* RACCommandViewController.m */; };
 		DDE51B268B673DFDE1A32565 /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,8 @@
 		81FF839D20BC04C400F356B0 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
 		81FF83A020BC05A500F356B0 /* RACMulticastConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMulticastConnectionViewController.h; sourceTree = "<group>"; };
 		81FF83A120BC05A500F356B0 /* RACMulticastConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMulticastConnectionViewController.m; sourceTree = "<group>"; };
+		81FF83A420BD548D00F356B0 /* RACCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommandViewController.h; sourceTree = "<group>"; };
+		81FF83A520BD548D00F356B0 /* RACCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandViewController.m; sourceTree = "<group>"; };
 		A5F93249BAA70C4483336C53 /* libPods-RACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,6 +159,7 @@
 		81FF833720BBAE5800F356B0 /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81FF83A320BD548200F356B0 /* RAC-Command */,
 				81FF839F20BC059800F356B0 /* RAC-MulticastConnection */,
 				81FF839920BC046D00F356B0 /* RAC-Sequence */,
 				81FF839520BC00AF00F356B0 /* RAC-RACSignal */,
@@ -282,6 +286,15 @@
 				81FF83A120BC05A500F356B0 /* RACMulticastConnectionViewController.m */,
 			);
 			path = "RAC-MulticastConnection";
+			sourceTree = "<group>";
+		};
+		81FF83A320BD548200F356B0 /* RAC-Command */ = {
+			isa = PBXGroup;
+			children = (
+				81FF83A420BD548D00F356B0 /* RACCommandViewController.h */,
+				81FF83A520BD548D00F356B0 /* RACCommandViewController.m */,
+			);
+			path = "RAC-Command";
 			sourceTree = "<group>";
 		};
 		B2E259C8B8D1A9BB77AF9AFE /* Frameworks */ = {
@@ -455,6 +468,7 @@
 				81FF838420BBF88500F356B0 /* RACMacroViewController.m in Sources */,
 				81FF839320BBFF6500F356B0 /* RACTestViewController.m in Sources */,
 				81FF834820BBAE5900F356B0 /* main.m in Sources */,
+				81FF83A620BD548D00F356B0 /* RACCommandViewController.m in Sources */,
 				81FF837B20BBF14C00F356B0 /* RACCombinationViewController.m in Sources */,
 				81FF833A20BBAE5800F356B0 /* AppDelegate.m in Sources */,
 				81FF839820BC00B700F356B0 /* RACSignalViewController.m in Sources */,
