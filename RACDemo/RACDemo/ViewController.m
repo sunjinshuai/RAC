@@ -34,6 +34,8 @@
     [self.dataSource addObject:@"*RACSignal*-RACSignalViewController"];
     [self.dataSource addObject:@"*RACSequence*-RACSequenceViewController"];
     
+    [self.dataSource addObject:@"*MulticastConnection*-RACMulticastConnectionViewController"];
+    
     [self.tableView reloadData];
 }
 
