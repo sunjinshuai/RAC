@@ -1,6 +1,0 @@
-
-use_frameworks!
-
-target 'RAC-过滤' do
-    pod 'ReactiveCocoa', '~> 7.2.0'
-end
